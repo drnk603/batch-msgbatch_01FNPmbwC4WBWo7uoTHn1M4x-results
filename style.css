@@ -494,7 +494,6 @@ li {
   box-shadow: var(--shadow-md);
   overflow: hidden;
   transition: all var(--transition-base);
-  height: 100%;
   position: relative;
   border: 1px solid var(--color-border);
 }
@@ -1178,13 +1177,11 @@ li {
 .g-3 {
   --bs-gutter-x: var(--space-md);
   --bs-gutter-y: var(--space-md);
-  gap: var(--space-md);
 }
 
 .g-4 {
   --bs-gutter-x: var(--space-lg);
   --bs-gutter-y: var(--space-lg);
-  gap: var(--space-lg);
 }
 
 .col-12 {
@@ -1752,6 +1749,14 @@ section {
   .d-flex.gap-4 {
     flex-direction: column;
     gap: var(--space-md);
+  }
+
+  .g-3 {
+    gap: var(--space-md);
+  }
+
+  .g-4 {
+    gap: var(--space-lg);
   }
 }
 
